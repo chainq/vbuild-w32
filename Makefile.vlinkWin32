@@ -11,7 +11,7 @@ CONFIG =
 
 LD = i686-w64-mingw32-gcc
 LDOUT = -o $(DUMMYVARIABLE)    # produces the string "-o "
-LDOPTS =
+LDOPTS = -s
 LIBS =
 
 

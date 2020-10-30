@@ -13,7 +13,7 @@ COPTS = -c -O2 $(OUTFMTS)
 
 LD = $(CC)
 LDOUT = $(CCOUT)
-LDFLAGS = -lm
+LDFLAGS = -lm -s
 
 RM = rm -f
 
